@@ -1,0 +1,59 @@
+.hjul {
+    text-align: center;
+    color:red;
+    margin: 50px;
+}
+body {
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+li {
+    float: left;
+    font-size: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: green;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: red;
+    }
+    
+    #julTre {
+        float:right;
+        width: 600px;
+       
+    }
+    .bor {
+        border: black;
+        
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 0px;
+        color: red;
+      }
