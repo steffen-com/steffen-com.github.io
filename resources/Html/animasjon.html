@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>animaskjon</title>
+        <link rel="stylesheet" href="linkToCSS" />
+        <style>
+             #boks {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        position: relative;
+        animation-name: fram-og-tilbake;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes fram-og-tilbake {
+        0% {
+            left: 0px;
+        }
+        100% {
+            left: 100px;
+        }
+    }
+    #pickaxe {
+        background-image: url("pickaxe");
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    left: -150px;
+    animation: move-pickaxe 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes move-pickaxe {
+    0% {
+        left:-150px;
+    }
+    100% {
+        left: 800px;
+        transform: rotate(720deg);
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div id="pickaxe"></div>
+    </body>
+</html>
