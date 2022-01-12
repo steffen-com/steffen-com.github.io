@@ -28,3 +28,5 @@ function skjekBank(){
        
     
 }
+var username = prompt("ka er navne ditt") 
+document.getElementById("username")
