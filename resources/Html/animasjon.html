@@ -2,11 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>animaskjon</title>
+        <title>animasjon</title>
         <link rel="stylesheet" href="linkToCSS" />
         <style>
-             #boks {
-        height: 50px;
+            
+            #boks {
+         
+         height: 50px;
         width: 50px;
         background-color: blue;
         position: relative;
@@ -17,10 +19,12 @@
     }
     @keyframes fram-og-tilbake {
         0% {
+            top: 0px;
             left: 0px;
         }
         100% {
-            left: 100px;
+            top: 320px;
+            left: 330px;
         }
     }
     #pickaxe {
@@ -48,6 +52,6 @@
         </style>
     </head>
     <body>
-        <div id="pickaxe"></div>
+        <div id="boks"></div>
     </body>
 </html>

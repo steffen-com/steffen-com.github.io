@@ -14,13 +14,14 @@ top: 0;
 
 li {
 float: left;
+font-size: 28px;
 }
 
 li a {
 display: block;
 color: white;
 text-align: center;
-padding: 14px 16px; 
+padding: 12px 18px; 
 text-decoration: none;
 }
 
@@ -30,4 +31,10 @@ background-color: #111;
 
 li a:hover:not(.active) {
 	background-color: black;
+}
+
+#center1 {
+	text-align: center;
+	margin: 70px;
+	font-size: 25px;
 }

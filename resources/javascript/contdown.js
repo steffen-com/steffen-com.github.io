@@ -10,7 +10,7 @@ var x = setInterval(function() {
 
   var distance = countDownDate - now;
     
-
+  
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -26,3 +26,7 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+let  person = {
+  fornavn:"g", eternavn:"h", aar:"2",
+}
+console.log(person)
