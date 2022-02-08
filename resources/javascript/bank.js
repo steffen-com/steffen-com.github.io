@@ -28,5 +28,5 @@ function skjekBank(){
        
     
 }
-var username = prompt("ka er navne ditt") 
-document.getElementById("username")
+let name = prompt("ka er navne ditt");
+document.getElementById("name").innerText = name;

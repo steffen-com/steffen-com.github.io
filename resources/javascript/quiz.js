@@ -81,3 +81,13 @@ if(sp6 == true){
  document.getElementById("poeng").innerText = "du fek " + poeng + " poeng"; 
  
 }
+
+
+
+
+
+
+
+
+
+
