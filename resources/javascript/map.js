@@ -47,6 +47,11 @@ ctx.lineTo(1280,220);
 ctx.moveTo(1280,220);
 ctx.lineTo(1300,200);
 
+// SSR
+ctx.moveTo(905,150);
+ctx.arc(855, 150, 50,0, 3 * Math.PI);
+
+
 // 3 etasje
 ctx.moveTo(1400,20);
 ctx.lineTo(1400,200);
@@ -67,6 +72,10 @@ ctx.moveTo(1370,220);
 ctx.lineTo(1880,220);
 ctx.moveTo(1880,220);
 ctx.lineTo(1900,200);
+
+//IMA
+ctx.moveTo(1505,70);
+ctx.arc(1455, 70, 50,0, 3 * Math.PI);
 
 
 //Hall 1
@@ -94,6 +103,20 @@ ctx.lineTo(370,720);
 ctx.moveTo(350,300);
 ctx.lineTo(370,320);
 
+// Elektro
+ctx.moveTo(435,150);
+ctx.arc(385, 150, 50,0, 3 * Math.PI);
+
+// navna på hall 1
+ctx.moveTo(200,380);
+ctx.lineTo(350,380);
+ctx.moveTo(150,460);
+ctx.lineTo(350,460);
+ctx.moveTo(150,540);
+ctx.lineTo(350,540);
+ctx.moveTo(150,620);
+ctx.lineTo(350,620);
+
 
 // Hall 2
 ctx.moveTo(450,380);
@@ -118,6 +141,13 @@ ctx.lineTo(580,720);
 ctx.moveTo(580,720);
 ctx.lineTo(430,720);
 
+// navno på hall 2
+ctx.moveTo(450,460);
+ctx.lineTo(600,460);
+ctx.moveTo(450,540);
+ctx.lineTo(600,540);
+ctx.moveTo(450,620);
+ctx.lineTo(600,620);
 
 // Hall 3
 ctx.moveTo(450,760);
@@ -139,7 +169,6 @@ ctx.moveTo(430,870);
 ctx.lineTo(710,870);
 ctx.moveTo(730,850);
 ctx.lineTo(710,870);
-
 
 
 // bygning 4
@@ -168,13 +197,13 @@ ctx.lineTo(235,840);
 
 // bruke font og fillText til å skriva ut tekst til nettsido
 ctx.font = "30px verdana";
-ctx.fillText("Hovudbygget aka Hall 0 ", 280,50);
+ctx.fillText("Hovudbygget ", 340,50);
 
 ctx.font = "30px verdana";
-ctx.fillText("Hall 1", 240, 360);
+ctx.fillText("Hall 1", 110, 370);
 
 ctx.font = "30px verdana";
-ctx.fillText("Hall 2", 495, 450);
+ctx.fillText("Hall 2", 485, 370);
 
 ctx.font = "30px verdana";
 ctx.fillText("Hall 3", 550, 800);
@@ -190,6 +219,42 @@ ctx.fillText("Etasje 3", 1600, 50);
 
 ctx.font = "30px verdana";
 ctx.fillText("Bygg 4", 130, 800);
+
+ctx.font = "20px verdana";
+ctx.fillText("IMA", 1435, 75);
+
+ctx.font = "20px verdana";
+ctx.fillText("SSR", 835, 155);
+
+ctx.font = "20px verdana";
+ctx.fillText("Automasjon", 220, 340);
+
+ctx.font = "20px verdana";
+ctx.fillText("Industriteknologi", 170, 425);
+
+ctx.font = "15px verdana";
+ctx.fillText("Bygg og anleggsteknikk", 160, 505);
+
+ctx.font = "20px verdana";
+ctx.fillText("Køyretøy", 205, 585);
+
+ctx.font = "15px verdana";
+ctx.fillText("Bygg og anleggsteknikk", 160, 665);
+
+ctx.font = "20px verdana";
+ctx.fillText("Elektro", 495, 430);
+
+ctx.font = "20px verdana";
+ctx.fillText("Elektro", 495, 510);
+
+ctx.font = "20px verdana";
+ctx.fillText("Tip", 505, 660);
+
+ctx.font = "20px verdana";
+ctx.fillText("Grunnkompetane", 500, 820);
+
+ctx.font = "20px verdana";
+ctx.fillText("Elektro", 350, 155);
 
 
 ctx.stroke();
