@@ -1,0 +1,21 @@
+.grid-containerr {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    place-content: center;
+  
+  }
+  .grid-itemm {
+      background-color: black;
+    border: 2px solid black;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+  }
+  .grid-itemm img{
+    width:100%
+
+  }
+#start{
+    text-align: center;
+    font-size: 55px;
+}
