@@ -23,3 +23,8 @@
 	width: 25px;
 	height: 25px;
 	background: url("function displayRandomImages()") 
+}
+body{
+	background-color: gray;
+	zoom: 150%;
+}

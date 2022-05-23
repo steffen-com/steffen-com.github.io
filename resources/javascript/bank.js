@@ -24,7 +24,7 @@ function skjekBank(){
         alert("du har toke ut penger")
     }
    
-  
+
        
     
 }

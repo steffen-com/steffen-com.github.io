@@ -5,21 +5,37 @@
         <title>mini bank</title>
         <link rel="stylesheet" href="resources/css/meny.css" />
         <link rel="stylesheet" href="resources/css/center.css">
-        <style>
-            body {
-                background-color: rgb(71, 68, 68);
-            }
-        </style>
     </head>
-    <body>
+    <body id="farge2">
         <ul>
-                <li>
-                    <a class="active" href="../steffen-com.github.io/resources/Html/om meg.html">om meg</a> 
-                </li>
-                <li>
-                    <a class="active" href="../steffen-com.github.io/jul html.html">jul</a>
-                </li>
-            </ul> <br> <br>
+			<li>
+				<a class="active" href="index.html">Hjem</a> 
+			</li>
+			<li>
+				<a class="active" href="jul html.html">Jul</a>
+			</li>
+			<li>
+				<a class="active" href="resources/Html/Quiz.html">Quiz</a>
+			</li>
+			<li>
+				<a class="active" href="resources/Html/animasjon.html">Animasjon</a>
+			</li>>
+			<li>
+				<a class="active" href="map.html">Map</a>
+			</li>
+			<li>
+				<a class="active" href="nettbutikk/nettbutik.html">Nettbutik</a>
+			</li>
+			<li>
+				<a class="active" href="Stord-Teknik-UB/nettside.html">UB nettside</a>
+			</li>
+			<li>
+				<a class="active" href="mini bank.html">Mini bank</a>
+			</li>
+            <li>
+				<a class="active" href="random.html">DisplayRandomImages</a>
+			</li>
+		</ul> <br><br>
         <h1 id="h">Mini bank</h1>
         <h1>velkomen <span id="name"></span></h1>
 
@@ -28,7 +44,7 @@
             <input type="number" name="name" placeholder="skriv inn kor mase du skal ta ut" id="penger"> <br> <br>
             <input type='button' onclick="skjekBank();"value='trykk'>
             </a>
-          
+			<span id="result"></span>
         </form>
         <script src="resources/javascript/bank.js"></script>
     </body>
